@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    
+    color: white;
+}
+
+body{
+    padding-top: 84px;
+    background-color: rgb(28, 25, 25);
+}
+
+.cabecalho{
+    position: fixed;
+    font-size: 45px;
+    width: 100%;
+    padding: 15px;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(28, 25, 25)
+}
+
+.link-wattpad{
+    position: relative;
+    z-index: 2;
+    left: 700px;
+    bottom: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:active{
+    color: lightseagreen;
+}
+
+.titulo{
+    position: relative;
+    left: 350px;
+    top: 20px;
+    font-size: 45px;
+}
+
+.person-imagem{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: 20px;
+}
+
+.shakazi{
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    top: 20px
+}
+
+.pinos{
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    top: 20px
+}
+
+.urca{
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    top: 20px
+}
+
+.zant{
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    top: 20px
+}
+
+
+.descricao{
+    display: inline-block;
+    width: 700px;
+    margin: 15px;
+    font-size: 20px;
+}
