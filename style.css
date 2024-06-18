@@ -11,12 +11,6 @@ body{
     background-color: rgb(28, 25, 25);
 }
 
-.introducao{
-    font-size: 30px;
-    margin: 25px;
-    
-}
-
 .link-personagens{
     font-size: 30px;
     text-decoration: none;
@@ -24,21 +18,14 @@ body{
     font-weight: 700;
 }
 
-.link-home{
+.link-mundo{
     font-size: 30px;
     text-decoration: none;
     margin: 30px;
     font-weight: 700;
-}
-
-.cabecalho{
-    position: fixed;
-    font-size: 45px;
-    width: 100%;
-    padding: 15px;
-    top: 0;
-    z-index: 1;
-    background-color: rgb(28, 25, 25)
+    position: relative;
+    top: 60px;
+    right: 280px;
 }
 
 .link-wattpad{
@@ -53,6 +40,44 @@ body{
 a:active{
     color: lightseagreen;
 }
+
+.link-home{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 30px;
+    font-weight: 700;
+    top: 10px;
+    position: relative;
+}
+
+.introducao{
+    font-size: 30px;
+    margin: 25px;
+    
+}
+
+.forts{
+    position: relative;
+    margin: 20px;
+    font-size: 30px;
+    top: 20px
+}
+
+
+.cabecalho{
+    position: fixed;
+    font-size: 45px;
+    width: 100%;
+    padding: 15px;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(28, 25, 25);
+    border-style: solid;
+    border-top: 10px;
+    border-left: 0px;
+    border-color: white;
+}
+
 
 .titulo{
     position: relative;
