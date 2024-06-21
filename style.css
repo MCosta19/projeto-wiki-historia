@@ -71,8 +71,9 @@ a:active{
 .forts{
     position: relative;
     margin: 20px;
-    font-size: 20px;
+    font-size: 35px;
     top: 20px
+    left: 250px
 }
 
 
