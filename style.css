@@ -16,6 +16,10 @@ body{
     text-decoration: none;
     margin: 30px;
     font-weight: 700;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    position: relative;
 }
 
 .link-mundo{
@@ -25,7 +29,10 @@ body{
     font-weight: 700;
     position: relative;
     top: 60px;
-    right: 280px;
+    right: 294px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
 }
 
 .link-wattpad{
@@ -37,6 +44,11 @@ body{
     font-size: 25px;
 }
 
+.imagem-capa{
+    position: relative;
+    z-index: -1;
+    top: 500px
+}
 a:active{
     color: lightseagreen;
 }
@@ -73,8 +85,7 @@ a:active{
     z-index: 1;
     background-color: rgb(28, 25, 25);
     border-style: solid;
-    border-top: 10px;
-    border-left: 0px;
+    border-width: 0px 0px 3px 0px;
     border-color: white;
 }
 
